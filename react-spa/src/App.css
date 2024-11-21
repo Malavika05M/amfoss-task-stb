@@ -1,0 +1,14 @@
+.property-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.filter {
+  margin: 1rem 0;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
